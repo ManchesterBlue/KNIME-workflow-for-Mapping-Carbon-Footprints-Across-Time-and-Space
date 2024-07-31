@@ -1,0 +1,1 @@
+# KNIME-workflow-for-Mapping-Carbon-Footprints-Across-Time-and-Space
