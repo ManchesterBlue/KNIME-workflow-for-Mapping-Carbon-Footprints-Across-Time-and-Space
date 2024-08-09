@@ -50,7 +50,7 @@ Finally, we can plot the data for the continent we want to analyze. I have chose
 
 <img width="545" alt="image (12)" src="https://github.com/user-attachments/assets/d05938f0-6539-47d4-9eab-910a1008a01d">
 
-Instead of looking at continental changes in carbon emissions, the alternative is to look at global emissions in a particular year. Here's what I talked about in a meeting with Professor Zhang, who wanted me to implement an overall map of the environment. I admit I have taken a lot of detours here. When I first tried to use the geospatial extensions, I either could not generate images or the images I generated were unsatisfactory. Eventually I found that the Choropleth Map Node seemed to fit the bill. Here we first use Row Fliter to select a particular year. Take 2019 here, the eve of covid-19.
+Instead of looking at continental changes in carbon emissions, the alternative is to look at global emissions in a particular year. When I first tried to use the geospatial extensions, I either could not generate images or the images I generated were unsatisfactory. Eventually I found that the Choropleth Map Node seemed to fit the bill. Here we first use Row Fliter to select a particular year. Take 2019 here, the eve of covid-19.
 
 <img width="209" alt="image (13)" src="https://github.com/user-attachments/assets/f98e527f-0a08-4230-8c8a-9e9b9269cd42">
 
