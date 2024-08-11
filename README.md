@@ -15,50 +15,49 @@ The main interface of the offcial website is shown below.
 <img width="1499" alt="image" src="https://github.com/user-attachments/assets/848684a4-7d4f-4c2c-b5ee-5cbe7e20a3d2">
   
 The data table I use now is a patchwork of various carbon emissions data available on the site. This is a very large table with all kinds of data about carbon emissions. Including but not limited to the carbon emission data caused by various fuels, carbon emission data of countries and continents, annual per capita carbon emissions, annual carbon emission increase, cumulative carbon emissions and many other variables.  
-
+  
 A screenshot of the data table is shown below.  
-<img width="1440" alt="image (1)" src="https://github.com/user-attachments/assets/a01da1db-52dd-45fc-a0fa-681559bc9c64">
-
+<img width="1440" alt="image (1)" src="https://github.com/user-attachments/assets/a01da1db-52dd-45fc-a0fa-681559bc9c64">  
+  
 Now the nodes will now be covered in more detail, which is convenient for the whole workflow to have a full understanding.  
   
-The first is rule-based row splitter. In my entire data table, the packets contain countries and continents, and it even includes Asia excluding China and Indi and North America excluding the United States. It is responsible for differentiating them.  
-<img width="101" alt="image (3)" src="https://github.com/user-attachments/assets/4f68763c-030d-45a4-8b29-7522c6fa4ba3">
+The first is rule-based row splitter.    
+![image](https://github.com/user-attachments/assets/34bd69a2-1c2a-4c3d-9115-a79dca7abafd)  
+In my entire data table, the packets contain countries and continents, and it even includes Asia excluding China and Indi and North America excluding the United States. It is responsible for differentiating them.  
+<img width="398" alt="image (4)" src="https://github.com/user-attachments/assets/e8713ac5-3218-45c7-8e19-887f69deab7b">  
   
-<img width="398" alt="image (4)" src="https://github.com/user-attachments/assets/e8713ac5-3218-45c7-8e19-887f69deab7b">
+Let's first start with the part about continents. It first delimit a time range using Row Filter.    
+<img width="93" alt="image (5)" src="https://github.com/user-attachments/assets/9492c7ec-2d3a-44da-84fb-ddcb438898f3">  
+The upper and lower bounds here are 2020 and 1950 respectively. But the upper and lower bounds could be adjusted.  
+<img width="484" alt="image (6)" src="https://github.com/user-attachments/assets/17bc0a5b-03b5-4b0e-be9d-b52964a9db45">  
   
-I currently plot part of the data about continents and map part of the data about countries. Let's first start with the part about continents. It first delimit a time range using Row Filter. The upper and lower bounds here are 2020 and 1950 respectively. But the upper and lower bounds could be adjusted.  
-<img width="93" alt="image (5)" src="https://github.com/user-attachments/assets/9492c7ec-2d3a-44da-84fb-ddcb438898f3">
+Then the Interactive Range Slider Filter will further select within the range you delimit, which can be slid to easily analyze the carbon emissions over a period of time.  
+<img width="100" alt="image (7)" src="https://github.com/user-attachments/assets/8428985a-b51d-4b2d-aa56-606831557f82">  
+One might wonder if this is similar to the previous Row Filter. My answer is that the first part of the selection will lead to other branches in my further exploration. This is just for the purpose of drawing the plots, and for the sake of convenience, I will select the time area again.  
+<img width="756" alt="image (8)" src="https://github.com/user-attachments/assets/2ad3c38c-f7a0-436a-a3ad-1b924238cdd3">  
   
-<img width="484" alt="image (6)" src="https://github.com/user-attachments/assets/17bc0a5b-03b5-4b0e-be9d-b52964a9db45">
+The Interactive Value Filter will select the continent from which you want to analyze your data.    
+<img width="326" alt="image (9)" src="https://github.com/user-attachments/assets/3f393a49-15b4-4053-bb18-1fb74deb40d8">  
+As shown in the figure, the default continent is Europe.  
+<img width="569" alt="image (10)" src="https://github.com/user-attachments/assets/13443480-7a84-432e-a7e8-069079c987c1">  
   
-Then the Interactive Range Slider Filter will further select within the range you delimit, which can be slid to easily analyze the carbon emissions over a period of time. One might wonder if this is similar to the previous Row Filter. My answer is that the first part of the selection will lead to other branches in my further exploration. This is just for the purpose of drawing the plots, and for the sake of convenience, I will select the time area again.  
-<img width="100" alt="image (7)" src="https://github.com/user-attachments/assets/8428985a-b51d-4b2d-aa56-606831557f82">
+Finally, we can plot the data for the continent we want to analyze. I have chosen the growth percentage in carbon dioxide.    
+<img width="254" alt="image (11)" src="https://github.com/user-attachments/assets/1870c64d-b037-4e3c-8ca2-42bec3bd11a0">  
+As we can see, there are a lot of options for analysis. We will look at the details of the plot later in the section that presents the results.  
+<img width="545" alt="image (12)" src="https://github.com/user-attachments/assets/d05938f0-6539-47d4-9eab-910a1008a01d">  
   
-<img width="756" alt="image (8)" src="https://github.com/user-attachments/assets/2ad3c38c-f7a0-436a-a3ad-1b924238cdd3">
-  
-The Interactive Value Filter will select the continent from which you want to analyze your data. As shown in the figure, the default continent is Europe.  
-<img width="326" alt="image (9)" src="https://github.com/user-attachments/assets/3f393a49-15b4-4053-bb18-1fb74deb40d8">
-  
-<img width="569" alt="image (10)" src="https://github.com/user-attachments/assets/13443480-7a84-432e-a7e8-069079c987c1">
-  
-Finally, we can plot the data for the continent we want to analyze. I have chosen the growth percentage in carbon dioxide. As we can see, there are a lot of options for analysis. We will look at the details of the plot later in the section that presents the results.  
-<img width="254" alt="image (11)" src="https://github.com/user-attachments/assets/1870c64d-b037-4e3c-8ca2-42bec3bd11a0">
-  
-<img width="545" alt="image (12)" src="https://github.com/user-attachments/assets/d05938f0-6539-47d4-9eab-910a1008a01d">
-  
-Instead of looking at continental changes in carbon emissions, the alternative is to look at global emissions in a particular year. Here we first use Row Fliter to select a particular year. Take 2019 here.  
-<img width="209" alt="image (13)" src="https://github.com/user-attachments/assets/f98e527f-0a08-4230-8c8a-9e9b9269cd42">
-  
-<img width="484" alt="image (14)" src="https://github.com/user-attachments/assets/c021e453-206a-4448-b3b4-620f5c927802">
+Instead of looking at continental changes in carbon emissions, the alternative is to look at global emissions in a particular year.    
+<img width="209" alt="image (13)" src="https://github.com/user-attachments/assets/f98e527f-0a08-4230-8c8a-9e9b9269cd42">  
+Here we first use Row Fliter to select a particular year. Take 2019 here.  
+<img width="484" alt="image (14)" src="https://github.com/user-attachments/assets/c021e453-206a-4448-b3b4-620f5c927802">  
   
 This is the Choropleth Map Node that finally draws the map. It can draw a map through a column that we select. Such a map is more clear and intuitive, which can facilitate us to directly judge the overall trend and make a clear comparison.  
-<img width="243" alt="image (15)" src="https://github.com/user-attachments/assets/f5861e2f-3ec5-42b9-933a-e7ccf00f7c21">
-  
-<img width="377" alt="image (16)" src="https://github.com/user-attachments/assets/65da02e7-fb34-4942-9e39-d44aeed435eb">
+<img width="243" alt="image (15)" src="https://github.com/user-attachments/assets/f5861e2f-3ec5-42b9-933a-e7ccf00f7c21">  
+We still have a lot of indicators to analyze global carbon emissions.  
+<img width="377" alt="image (16)" src="https://github.com/user-attachments/assets/65da02e7-fb34-4942-9e39-d44aeed435eb">  
 
 # Examples
 Since there are many tables and maps that can be drawn as a whole, I will only select a few pictures to mention a little.  
-
 The plot below analyzes the growth in percentage of carbon emissions in Europe as a whole. This chart vividly illustrates the fluctuations in annual growth rates of carbon emissions across Europe from 1950 to the present. As we observe, there was a significant peak in 1950, suggesting a high point in carbon emissions growth. Following this, the trend generally appears to decline, though the decrease is not markedly steep. It seems that a pivotal event or series of events in the 1950s might have catalyzed a sharp drop in emissions growth, after which the levels largely stabilized, like industrial restructuring, energy efficiency and technological innovations, introduction of nuclear power, and economic shifts especially the Marshall Plan beginning in 1948. The vertical lines and points on the graph represent the variability in annual rates, indicating that despite the long-term trend of decline, there were substantial fluctuations year over year. This could be attributed to varying factors such as shifts in environmental policies, economic activities, or energy consumption patterns. Remarkably, in recent years, the growth rates have even dipped into the negative, signifying that the annual carbon emissions are decreasing compared to previous years. This graph not only showcases the historical changes but also underscores the ongoing efforts and their impact on reducing carbon footprints in Europe.  
 <img width="756" alt="image (18)" src="https://github.com/user-attachments/assets/ef227f17-3cb5-497d-9622-2d99fff17b38">
   
