@@ -72,3 +72,5 @@ This map displays the concentration of computing power across different countrie
 <img width="756" alt="image (20)" src="https://github.com/user-attachments/assets/b2196eb9-cfa9-4e40-994c-08a69212b820">  
 
 # Citations
+Ritchie, H., & Roser, M. (2024, January 22). CO2 emissions. Our World in Data. https://ourworldindata.org/co2-emissions  
+Wiedmann, T., & Minx, J. (2008). A Definition of “Carbon Footprint.” In Ecological Economics Research Trends (pp. 1–11). essay, Nova Science Publishers.
