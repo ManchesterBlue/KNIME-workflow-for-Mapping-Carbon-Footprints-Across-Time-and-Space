@@ -69,4 +69,6 @@ This map illustrates the variation in cumulative carbon emissions per capita acr
 <img width="756" alt="image (19)" src="https://github.com/user-attachments/assets/976de4b9-636d-4b06-b83e-aff5201ad2bf">
   
 This map displays the concentration of computing power across different countries as measured by data centers and computing resources available as of 2019. The scale of the map, ranging from 0 to over 14,684 units, shows a pronounced concentration in China, highlighted in deep purple, indicating a significant dominance in computing infrastructure. This is contrasted starkly by the lighter hues observed in regions like North America, Europe, and parts of Asia, which, although substantial in their computing capacities, do not match the scale found in China. The palest colors across Africa and parts of South America reflect minimal computing resources, underscoring global disparities in technological infrastructure. This geographical distribution is pivotal for understanding the global landscape of technology and innovation, where computing power is a crucial asset for economic development, digital innovation, and competitive advantage in the global market.  
-<img width="756" alt="image (20)" src="https://github.com/user-attachments/assets/b2196eb9-cfa9-4e40-994c-08a69212b820">
+<img width="756" alt="image (20)" src="https://github.com/user-attachments/assets/b2196eb9-cfa9-4e40-994c-08a69212b820">  
+
+# Citations
