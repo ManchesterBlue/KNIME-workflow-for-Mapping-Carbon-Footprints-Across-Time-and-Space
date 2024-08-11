@@ -8,7 +8,7 @@ A screenshot of the workflow is shown below.
 
 # Introduction
 The data I use is currently all from this website: **_Our World in Data_**. Our World in Data is a unique web resource that presents empirical research and statistics to make international data on important issues both accessible and understandable. It aims to provide a detailed, data-driven overview of the world’s major challenges and developments across various fields such as health, food provision, the environment, poverty, violence, and education. The "CO<sub>2</sub> emissions" section focuses on global carbon dioxide emissions, providing a comprehensive look at their sources, intensity, and impact across different regions and timescales. It includes historical data, present-day statistics, and future projections to illustrate how CO<sub>2</sub> emissions have changed over time and what this means for climate change.  
-Official website: [https://ourworldindata.org/co2-emissions](CO<sub>2</sub> emissions)  
+Official website: [CO<sub>2</sub> emissions](https://ourworldindata.org/co2-emissions)  
 The main interface of the offcial website is shown below.  
 <img width="1499" alt="image" src="https://github.com/user-attachments/assets/848684a4-7d4f-4c2c-b5ee-5cbe7e20a3d2">
 
