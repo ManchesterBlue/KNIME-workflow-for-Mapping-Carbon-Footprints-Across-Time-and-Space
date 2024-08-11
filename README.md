@@ -8,15 +8,17 @@ A screenshot of the workflow is shown below.
 
 # Introduction
 The data I use is currently all from this website: **_Our World in Data_**. Our World in Data is a unique web resource that presents empirical research and statistics to make international data on important issues both accessible and understandable. It aims to provide a detailed, data-driven overview of the world’s major challenges and developments across various fields such as health, food provision, the environment, poverty, violence, and education. The "CO<sub>2</sub> emissions" section focuses on global carbon dioxide emissions, providing a comprehensive look at their sources, intensity, and impact across different regions and timescales. It includes historical data, present-day statistics, and future projections to illustrate how CO<sub>2</sub> emissions have changed over time and what this means for climate change.  
-Official website: [CO<sub>2</sub> emissions](https://ourworldindata.org/co2-emissions)  
+  
+Official website: [CO<sub>2</sub> Emissions](https://ourworldindata.org/co2-emissions)  
 The main interface of the offcial website is shown below.  
 <img width="1499" alt="image" src="https://github.com/user-attachments/assets/848684a4-7d4f-4c2c-b5ee-5cbe7e20a3d2">
 
-The data table I use now is a patchwork of various carbon emissions data available on the site. This is a very large table with all kinds of data about carbon emissions. Including but not limited to the carbon emission data caused by various fuels, carbon emission data of countries and continents, annual per capita carbon emissions, annual carbon emission increase, cumulative carbon emissions and many other variables.
-
+The data table I use now is a patchwork of various carbon emissions data available on the site. This is a very large table with all kinds of data about carbon emissions. Including but not limited to the carbon emission data caused by various fuels, carbon emission data of countries and continents, annual per capita carbon emissions, annual carbon emission increase, cumulative carbon emissions and many other variables.  
 <img width="1440" alt="image (1)" src="https://github.com/user-attachments/assets/a01da1db-52dd-45fc-a0fa-681559bc9c64">
 
-I will briefly introduce these nodes, which is convenient for the whole workflow to have a full understanding. The first is rule-based row splitter. In my entire data table, the packets contain countries and continents, and it even includes Asia excluding China and Indi and North America excluding the United States. It is responsible for differentiating them.
+Now the nodes will now be covered in more detail, which is convenient for the whole workflow to have a full understanding.  
+  
+The first is rule-based row splitter. In my entire data table, the packets contain countries and continents, and it even includes Asia excluding China and Indi and North America excluding the United States. It is responsible for differentiating them.
 
 <img width="101" alt="image (3)" src="https://github.com/user-attachments/assets/4f68763c-030d-45a4-8b29-7522c6fa4ba3">
 
